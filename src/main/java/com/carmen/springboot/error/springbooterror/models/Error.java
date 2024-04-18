@@ -3,10 +3,12 @@ package com.carmen.springboot.error.springbooterror.models;
 import java.util.Date;
 
 public class Error {
-      private String message;
+    
+    private String message;
     private String error;
     private int status;
     private Date date;
+    
     public String getMessage() {
         return message;
     }
